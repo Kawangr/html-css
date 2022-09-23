@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+h2{
+    font-family: 'Android';
+    font-style: normal;
+    color: #175A35;
+    font-size: 16px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    text-indent: 30px;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+header{
+    background-image: linear-gradient(#3BD47F, #1E693F );
+    padding: 10px;
+}
+header > h1{
+    text-align: center;
+    color: white;
+}
+header > p{
+    text-align: center;
+    color: white;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+nav > a:hover{
+    background-color: #3BD47F;
+    color: #175A35;
+    border-radius: 5px;
+    padding: 10px;
+}
+#pt1{
+    background-color: white;
+    width: 800px;
+    padding: 20px 20px 5px 20px;
+    margin: auto;
+}
+#pt2{
+    background-color: white;
+    width: 800px;
+    padding: 0px 20px 5px 20px;
+    margin: -15px auto;
+}
+#pt3{
+    background-color: white;
+    width: 800px;
+    padding: 0px 20px 20px 20px;
+    margin: -15px auto;
+}
+#pt4{
+    background-color: #1A5C38;
+    width: 800px;
+    padding: 20px;
+    margin: -15px auto;
+    
+}
+#pt5{
+    background-color: white;
+    width: 800px;
+    padding: 10px 30px 30px 30px;
+    margin: -15px auto;
+}
+article > h1{
+    font-family: 'Android';
+    color: #1A5C38;
+}
+article > h2{
+    background-image: linear-gradient(to right, #DCF3E6, #dcf3e61a);
+    padding-left: 10px;
+}
+article > p > a{
+    color: #175A35;
+    text-decoration: none;
+    font-weight: bold;
+}
+div#img1{
+    margin: 0px 0px 0px -15px;
+}
+.img2{
+    width: 760px;
+}
+div#img3{
+    margin: 0px 0px 0px 200px;
+}
+iframe{
+    margin: 0px 0px 0px 100px;
+}
+div > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: #2FA866;
+    color: white;
+    border-radius: 9px 9px 0px 0px;
+    padding: 8px;
+}
+div#lista{
+    background-color: #C5EBD6;
+    padding: 5px 10px 10px 10px;
+    margin: -20px 0px 0px 0px;
+    border-radius: 0px 0px 9px 9px;
+}
+a#lg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1A5C38;
+    text-decoration: none;
+
+}
+footer{
+    background-color: #1A5C38;
+}
+footer > p{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+
